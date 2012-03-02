@@ -1,0 +1,147 @@
+#container {
+	height: 600px;
+	width: 800px;
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#container2 {
+	height: auto;
+	width: 800px;
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#nav ul li a {
+	padding-top: auto;
+	padding-bottom: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	color: black;
+	display: inline;
+}
+
+#header {
+	height: 105px;
+	width: 800px;
+	padding-top: 5px;
+	list-style-type: none;
+}
+#leftnav {
+	width: 200px;
+	height: 430px;
+	border-top-style: none;
+	float: left;
+	padding-left: 8px;
+	background: #eaf8ff url(images/bgleftnav.png) repeat-x left top;
+}
+
+
+#header img {
+	border-style: none;
+	padding-top: 10px;
+}
+
+
+body {
+	background-image: url(images/bgPage.png);
+}
+
+#nav {
+	height: 50px;
+	width: auto;
+	background-color: #14c1fe;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+}
+#nav ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+#nav ul li a:hover {
+	color: #30587C;
+}
+#middlenav {
+	width: 550px;
+	height: 650px;
+	float: right;
+}
+#middlenav img {
+	padding-left: auto;
+	padding-right: auto;
+}
+
+#copyright_container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 20px;
+}
+
+
+#leftnav p {
+	padding: 5px;
+}
+#container #middlenav .maincontent {
+	width: 450px;
+	height: 210px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#leftnav img {
+	padding-top: 5px;
+}
+#footer .leftcol img {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+#container #middlenav .maincontent p {
+	padding: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+img {
+	border-style: none;
+}
+
+#targa_downloads {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: auto;
+	background-color: #CCFFFF;
+}
+
+#targa_downloads h3 {
+	padding-top: 8px;
+}
+
+#targa_downloads ul {
+	list-style-type: none;
+}
+			
+
+
+
