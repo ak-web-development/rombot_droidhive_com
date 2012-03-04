@@ -49,12 +49,13 @@
 	background: #eaf8ff url(images/bgleftnav.png) repeat-x left top;
 }
 
-#leftnav ul li a {
+#leftnav a {
 	text-decoration: none;
+	color: #0066CC;
 }
 
-#leftnav ul li a:hover {
-	color: black;
+#leftnav a:hover {
+	color: #003399;
 }
 
 #header img {
@@ -84,6 +85,11 @@ body {
 	list-style-type: none;
 	display: inline-block;
 }
+
+#nav ul li a {
+	font-size: small;
+}
+
 #nav ul li a:hover {
 	color: #30587C;
 }
@@ -102,24 +108,6 @@ body {
 	margin-right: auto;
 	width: 800px;
 	height: 20px;
-}
-
-.bottom_nav {
-	float: right;
-}
-
-.bottom_nav ul {
-	display: inline;
-}
-
-.bottom_nav ul li {
-	list-style-type: none;
-	display: inline;
-}
-
-.bottom_nav ul li a {
-	text-decoration: none;
-	font-size: small;
 }
 
 #leftnav p {
