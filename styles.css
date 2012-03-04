@@ -49,6 +49,13 @@
 	background: #eaf8ff url(images/bgleftnav.png) repeat-x left top;
 }
 
+#leftnav ul li a {
+	text-decoration: none;
+}
+
+#leftnav ul li a:hover {
+	color: black;
+}
 
 #header img {
 	border-style: none;
@@ -132,6 +139,7 @@ img {
 	width: 400px;
 	height: auto;
 	background-color: #CCFFFF;
+	border: dashed 1px black;
 }
 
 #targa_downloads h3 {
@@ -146,6 +154,11 @@ img {
 	#container {
 	width: 400px;
 	height: auto;
+	}
+	div#header {
+	background-image: none;
+	height: 80px;
+	position: relative;
 	}
 		
 }
