@@ -104,10 +104,28 @@ body {
 	height: 20px;
 }
 
+.bottom_nav {
+	float: right;
+}
+
+.bottom_nav ul {
+	display: inline;
+}
+
+.bottom_nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.bottom_nav ul li a {
+	text-decoration: none;
+	font-size: small;
+}
 
 #leftnav p {
 	padding: 5px;
 }
+
 #container #middlenav .maincontent {
 	width: 450px;
 	height: 210px;
