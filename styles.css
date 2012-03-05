@@ -121,6 +121,10 @@ body {
 	margin-right: auto;
 }
 
+#container #middlenav .maincontent a {
+	text-decoration: none;
+}
+
 #leftnav img {
 	padding-top: 5px;
 }
@@ -131,6 +135,17 @@ body {
 #container #middlenav .maincontent p {
 	padding: 5px;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#twitter_widgets {
+	width: auto;
+	height: 50px;
+	padding-top: 150px;
+}
+
+#twitter_widgets2 {
+	width: auto;
+	height: 50px;
 }
 
 img {
