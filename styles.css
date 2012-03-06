@@ -86,6 +86,10 @@ body {
 	display: inline-block;
 }
 
+#nav ul li a {
+	font-size: small;
+}
+
 #nav ul li a:hover {
 	color: #30587C;
 }
