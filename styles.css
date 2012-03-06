@@ -86,10 +86,6 @@ body {
 	display: inline-block;
 }
 
-#nav ul li a {
-	font-size: small;
-}
-
 #nav ul li a:hover {
 	color: #30587C;
 }
@@ -114,15 +110,19 @@ body {
 	padding: 5px;
 }
 
-#container #middlenav .maincontent {
+.maincontent {
 	width: 450px;
 	height: 210px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#container #middlenav .maincontent a {
+.maincontent a {
 	text-decoration: none;
+}
+
+.maincontent a:hover {
+	color: black;
 }
 
 #leftnav img {
@@ -160,7 +160,7 @@ img {
 	width: 400px;
 	height: auto;
 	background-color: #CCFFFF;
-	border: dashed 1px black;
+	border: 1px dashed black;
 }
 
 #targa_downloads h3 {
