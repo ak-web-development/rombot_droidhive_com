@@ -5,9 +5,28 @@
 	<meta name="description" content="Droidhive RomBot for Droid Bionic, Droid 3, Droid Razr, and Galaxy Nexus Builds" />
 	<meta name="keywords" content="roms, droid bionic, droid razr, droid 3, galaxy nexus, compiling, google, android, development" />
 	<link rel="stylesheet" href="styles.css" media="screen" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
 <title>Droidhive :: Rombot</title>
 
 	<!-- Site Created by Alex Knipfer | Copyright All Rights Reserved: dhacker29 -->
+<style type="text/css">
+	* { margin:0;
+    	padding:0;
+}
+div#menu { 
+	margin:5px auto; 
+}
+
+div#copyright {
+    font:11px 'Trebuchet MS';
+    color:#222;
+    text-indent:30px;
+    padding:40px 0 0 0;
+}
+div#copyright a { color:#eee; }
+div#copyright a:hover { color:#222; }
+</style>
 </head>
 
 
@@ -19,16 +38,19 @@
     </center>
     </div>
     
-    <div id="nav">
-    	<ul>
-            <li><a href="index.html">Home</a> |</li> 
-            <li><a href="targa.html">Targa [Bionic]</a> |</li>
-            <li><a href="spyder.html">Spyder [Razr]</a> |</li>
-            <li><a href="solana.html">Solana [Droid 3]</a> |</li>
-            <li><a href="toro.html">Toro [GNEX]</a> |</li>
-	    <li><a href="maserati.html">Maserati [Droid 4]</a></li>
-        </ul>
-    </div>
+  
+<div id="menu">
+    <ul class="menu">
+        <li><a href="index.html" class="parent"><span>Home</span></a>
+        </li>
+        <li><a href="targa.html" class="parent"><span>Targa [Droid Bionic]</span></a>
+        </li>
+        <li><a href="spyder.html"><span>Spyder [Droid Razr]</span></a></li>
+        <li><a href="solana.html"><span>Solana [Droid 3]</span></a></li>
+        <li><a href="toro.html"><span>Toro [Gnex]</span></a></li>
+        <li class="last"><a href="maserati.html"><span>Maserati [Droid 4]</span></a></li>
+    </ul>
+</div>
     	
     <div id="leftnav">
 	<center>
@@ -99,6 +121,7 @@
 </div>
 	<div id="copyright_container">
 		<small><em>&copy; 2012 Droidhive</em></small>
+		<a href="http://apycom.com/"></a></div>
 	</div>
 </body>
 </html>
