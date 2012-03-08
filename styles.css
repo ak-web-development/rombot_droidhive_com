@@ -24,6 +24,19 @@
 	border-bottom: 1px solid black;
 }
 
+#container_targa {
+	height: 1000px;
+	width: 800px;
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
 #nav ul li a {
 	padding-top: auto;
 	padding-bottom: auto;
@@ -147,11 +160,6 @@ body {
 	padding-top: 150px;
 }
 
-#twitter_widgets2 {
-	width: auto;
-	height: 50px;
-}
-
 img {
 	border-style: none;
 }
@@ -173,6 +181,27 @@ img {
 
 #targa_downloads ul {
 	list-style-type: none;
+}
+
+#targa_downloads_left {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	width: 400px;
+	height: auto;
+	background-color: #CCFFFF;
+	border: 1px dashed black;
+	float: left;
+}
+
+#targa_downloads_right {
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 325px;
+	height: 200px;
+	background-color: #CCFFFF;
+	border: 1px dashed black;
+	float: right;
 }
 			
 @media only screen and (max-device-width: 480px) {
