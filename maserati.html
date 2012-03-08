@@ -9,7 +9,19 @@
 <style type="text/css">
 @import url("styles.css");
 </style>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+<script type="text/javascript" src="js/organictabs.jquery.js"></script>
+<script type='text/javascript'>
+    $(function() {
 
+        $("#example-one").organicTabs();
+
+        $("#example-two").organicTabs({
+            "speed": 200
+        });
+
+    });
+</script>
 </head>
 
 <body onload="MM_preloadImages('images/gmail_logo.png')">
@@ -31,22 +43,26 @@
 	    <li><a href="maserati.html">Maserati [Droid 4]</a></li>
         </ul>
     </div>
-	<div id="targa_downloads">
-		<center><h3><u>AOKP [Droid 4]</u></h3></center>
-	<ul>
-		<li><a href="http://rombot.droidhive.com/ROMs/maserati/aokp/DROID4-AOKP-03-05-SELFKANG.zip">DROID4-AOKP-SELFKANG (3-5)</a></li>
-		<li><a href="http://rombot.droidhive.com/ROMs/maserati/aokp/DROID4-AOKP-03-06-SELFKANG.zip">DROID4-AOKP-SELFKANG (3-6)</a></li>
-		<li><a href="http://rombot.droidhive.com/ROMs/maserati/aokp/DROID4-AOKP-03-07-SELFKANG.zip">DROID4-AOKP-SELFKANG (3-7)</a></li>
-	</ul>
-	<br />
-		<center><h3><u>CM9 [Droid 4]</u></h3></center>
-	<ul>
-		<li><a href="http://rombot.droidhive.com/ROMs/maserati/cm9/DROID4-CM9-03-05-SELFKANG.zip">DROID4-CM9-SELFKANG (3-5)</a></li>
-		<li><a href="http://rombot.droidhive.com/ROMs/maserati/cm9/DROID4-CM9-03-06-SELFKANG.zip">DROID4-CM9-SELFKANG (3-6)</a></li>
-		<li><a href="http://rombot.droidhive.com/ROMs/maserati/cm9/DROID4-CM9-03-07-SELFKANG.zip">DROID4-CM9-SELFKANG (3-7)</a></li>
-	</ul>
-	<br />
-	</div>
+	<div id="example-one">
+    <ul class="nav">
+                <li class="nav-one"><a href="#AOKP" class="current">AOKP</a></li>
+                <li class="nav-two"><a href="#CM9">CM9</a></li>
+    </ul>
+    <div class="list-wrap">
+
+		<ul id="AOKP">
+			<li><a href="http://rombot.droidhive.com/ROMs/maserati/aokp/DROID4-AOKP-03-05-SELFKANG.zip">DROID4-AOKP-SELFKANG (3-5)</a></li>
+			<li><a href="http://rombot.droidhive.com/ROMs/maserati/aokp/DROID4-AOKP-03-06-SELFKANG.zip">DROID4-AOKP-SELFKANG (3-6)</a></li>
+			<li><a href="http://rombot.droidhive.com/ROMs/maserati/aokp/DROID4-AOKP-03-07-SELFKANG.zip">DROID4-AOKP-SELFKANG (3-7)</a></li>
+		</ul>
+
+		 <ul id="CM9" class="hide">
+			<li><a href="http://rombot.droidhive.com/ROMs/maserati/cm9/DROID4-CM9-03-05-SELFKANG.zip">DROID4-CM9-SELFKANG (3-5)</a></li>
+			<li><a href="http://rombot.droidhive.com/ROMs/maserati/cm9/DROID4-CM9-03-06-SELFKANG.zip">DROID4-CM9-SELFKANG (3-6)</a></li>
+			<li><a href="http://rombot.droidhive.com/ROMs/maserati/cm9/DROID4-CM9-03-07-SELFKANG.zip">DROID4-CM9-SELFKANG (3-7)</a></li>
+		 </ul>
+    </div> 
+ </div>
 	</div>
 
 	<div id="copyright_container">
