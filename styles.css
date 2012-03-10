@@ -1,5 +1,5 @@
 #container {
-	height: 600px;
+	height: 610px;
 	width: 800px;
 	background-color: #FFF;
 	margin-right: auto;
@@ -158,6 +158,26 @@ body {
 	width: auto;
 	height: 50px;
 	padding-top: 150px;
+}
+
+#contactweb {
+	width: auto;
+	height: 30px;
+}
+
+#contactweb a {
+	text-decoration: none;
+	color: black;
+	font-style: italic;
+}
+
+#contactweb a:hover {
+	color: blue;
+}
+
+#contactweb p {
+	float: right;
+	padding-right: 5px;
 }
 
 img {
