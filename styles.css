@@ -127,18 +127,18 @@ body {
 	padding: 5px;
 }
 
-.maincontent {
+#maincontent {
 	width: 450px;
 	height: 210px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.maincontent a {
+#maincontent a {
 	text-decoration: none;
 }
 
-.maincontent a:hover {
+#maincontent a:hover {
 	color: black;
 }
 
@@ -149,7 +149,7 @@ body {
 	padding-top: 10px;
 	padding-left: 10px;
 }
-#container #middlenav .maincontent p {
+#container #middlenav #maincontent p {
 	padding: 5px;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
