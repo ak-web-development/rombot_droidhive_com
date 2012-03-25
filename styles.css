@@ -79,6 +79,7 @@
 
 body {
 	background-image: url(images/bgPage.png);
+	padding-top: 5px;
 }
 
 #nav {
